@@ -1,0 +1,17 @@
+name: AdvancedCommands
+version: 1.0
+main: com.brekfst.advancedcommands.AdvancedCommands
+api-version: 1.19
+commands:
+  greet:
+    description: Greet a player.
+    usage: /greet <player>
+    permission: plugin.greet
+  timecheck:
+    description: Check the current server and real-world time.
+    usage: /timecheck
+    permission: plugin.timecheck
+  serverinfo:
+    description: Get server info.
+    usage: /serverinfo
+    permission: plugin.serverinfo

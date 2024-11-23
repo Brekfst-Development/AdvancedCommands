@@ -1,0 +1,48 @@
+# ========================================
+#      AdvancedCommands Configuration
+# ========================================
+# Customize messages, formats, and cooldowns here.
+# Use placeholders in messages to replace values:
+#   - %player%: Target player's name
+#   - %sender%: Command sender's name
+#   - %version%: Server version
+#   - %online%: Number of players online
+#   - %max%: Maximum number of players allowed
+#   - %uptime%: Server uptime in hours and minutes
+# ========================================
+
+messages:
+  # Prefix used in all plugin messages.
+  prefix: "&7[&bAdvancedCommands&7] "
+
+  # Message sent when using the /greet command.
+  # Supports multiple lines.
+  greet:
+    - "&7---------- &d✾ &7----------"
+    - "&7➜ &6Hello, &f%player%&6!"
+    - "&7➜ &6You have been greeted by &f%sender%&6!"
+    - "&7---------- &d✾ &7----------"
+
+  # Date and time format for /timecheck command.
+  time_format: "yyyy-MM-dd HH:mm:ss"
+
+  # Message sent when using the /timecheck command.
+  # Supports multiple lines.
+  timecheck:
+    - "&7---------- &6Time Information &7----------"
+    - "&7➜ &6Server Time: &f%servertime%"
+    - "&7➜ &6Real-World Time: &f%realtime%"
+    - "&7----------------------------------------"
+
+  # Message sent when using the /serverinfo command.
+  # Supports multiple lines.
+  serverinfo:
+    - "&7---------- &6Server Information &7----------"
+    - "&7➜ &6Server Version: &f%version%"
+    - "&7➜ &6Players Online: &f%online%/%max%"
+    - "&7➜ &6Server Uptime: &f%uptime%"
+    - "&7----------------------------------------"
+
+cooldowns:
+  # Cooldown time (in seconds) for the /greet command.
+  greet: 10
